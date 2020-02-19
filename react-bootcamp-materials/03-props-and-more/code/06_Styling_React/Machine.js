@@ -6,7 +6,7 @@ class Machine extends React.Component {
 
 		return (
 			<div className="Machine">
-				<p style={colors}>
+				<p className="paragraph">
 					{s1} {s2} {s3}
 				</p>
 				<p className={winner ? 'win' : 'lose'}>{winner ? 'Winner!' : 'Loser!'}</p>
